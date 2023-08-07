@@ -1,0 +1,58 @@
+.navbar {
+  background-color: var(--primary-header-brown);
+  padding: 20px 92px;
+}
+.navbar__menu__list {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  background-color: var(--primary-header-brown);
+}
+.navbar__menu__list > li {
+  color: var(--white);
+  display: inline;
+}
+.navbar__menu__list > li.active {
+  color: var(--primary-dark-brown);
+}
+.navbar__menu__list > li.menu_icon-wrapper.active {
+  filter: invert(21%) sepia(100%) saturate(1246%) hue-rotate(322deg)
+    brightness(107%) contrast(97%);
+}
+.navbar_search-wrapper {
+  display: flex;
+  background-color: var(--white);
+  padding: 5px 30px;
+  border-radius: 4px;
+  margin: 0px 140px;
+}
+.navbar__search {
+  border: none;
+  width: -webkit-fill-available;
+}
+.navbar__search:focus {
+  border: none;
+  outline: none;
+}
+.navbar__search-btn {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  content: "";
+  background: url("../assets/icon/search.svg") no-repeat center;
+}
+.menu__svg-icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  content: "";
+}
+.navbar__wishlist-icon {
+  background: url("../assets/icon/wishlist.svg") no-repeat center;
+}
+.navbar__cart-icon {
+  background: url("../assets/icon/cart.svg") no-repeat center;
+}
+.navbar__profile-icon {
+  background: url("../assets/icon/profile.svg") no-repeat center;
+}
