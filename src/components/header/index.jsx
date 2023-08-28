@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/header.css";
+import "./header.css";
 import { Link, useResolvedPath, useMatch } from "react-router-dom";
-import icon from "../assets/icon/profile.svg";
+import icon from "../../assets/icon/profile.svg";
 const Header = () => {
   const menuList = [
     { title: "Shop", link: "shop", type: "text" },

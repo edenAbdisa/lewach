@@ -39,7 +39,7 @@
   width: 44px;
   height: 44px;
   content: "";
-  background: url("../assets/icon/search.svg") no-repeat center;
+  background: url("../../assets/icon/search.svg") no-repeat center;
 }
 .menu__svg-icon {
   display: inline-block;
@@ -48,11 +48,11 @@
   content: "";
 }
 .navbar__wishlist-icon {
-  background: url("../assets/icon/wishlist.svg") no-repeat center;
+  background: url("../../assets/icon/wishlist.svg") no-repeat center;
 }
 .navbar__cart-icon {
-  background: url("../assets/icon/cart.svg") no-repeat center;
+  background: url("../../assets/icon/cart.svg") no-repeat center;
 }
 .navbar__profile-icon {
-  background: url("../assets/icon/profile.svg") no-repeat center;
+  background: url("../../assets/icon/profile.svg") no-repeat center;
 }

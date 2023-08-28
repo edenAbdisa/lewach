@@ -11,7 +11,7 @@
   height: 50px;
   width: 50px;
   content: "";
-  background-image: url("../assets/icon/logo.svg");
+  background-image: url("../../assets/icon/logo.svg");
 }
 .top-header__title {
   font-size: var(--f-frank-35);
@@ -33,14 +33,14 @@
   height: 24px;
   width: 24px;
   content: "";
-  background: url("../assets/icon/phone.svg") no-repeat;
+  background: url("../../assets/icon/phone.svg") no-repeat;
 }
 .top-header__actions-container__location::before {
   color: rgb(var(--primary-dark-brown));
   height: 24px;
   width: 24px;
   content: "";
-  background: url("../assets/icon/location.svg") no-repeat;
+  background: url("../../assets/icon/location.svg") no-repeat;
 }
 @media screen and (max-width: 1024px) {
   .top-header {

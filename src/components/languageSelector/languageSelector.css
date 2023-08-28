@@ -1,0 +1,21 @@
+.lsButton {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.lsContainer {
+  display: flex;
+  align-items: center;
+  width: 95px;
+  height: 24px;
+  border: 1px solid #000;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+  .lsContainer {
+    width: 46px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,32 @@
+.hero__container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  background-color: var(--white);
+  padding: 80px 50px;
+  border-radius: 0px 0px 100px 0px;
+}
+.hero__desc__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: baseline;
+  justify-content: center;
+  text-align: left;
+}
+.hero__title {
+  font-size: var(--f-frank-65);
+  font-weight: 600;
+}
+.hero__description {
+  font-size: var(--f-ibm-16);
+}
+.hero__btn {
+  width: fit-content;
+  border-radius: 8px 8px 70px 8px;
+  padding: 18px 24px;
+  font-size: var(--f-ibm-16);
+  font-weight: 600;
+  background-color: var(--accent-green-teal);
+  color: var(--white);
+}

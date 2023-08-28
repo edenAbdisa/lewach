@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/topHeader.css";
+import "./topHeader.css";
+import LanguageSelector from "../languageSelector";
 
 function TopHeader() {
   return (
@@ -7,6 +8,7 @@ function TopHeader() {
       <span className="top-header__logo"></span>
       <h1 className="top-header__title">Liwach</h1>
       <div className="top-header__actions-container">
+        <LanguageSelector />
         <span className="top-header__actions-container__call-center">
           Call center
         </span>

@@ -1,3 +1,6 @@
+import React, { useState } from "react";
+import { withTranslation } from "react-i18next";
+
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header";
@@ -10,8 +13,11 @@ import Dashboard from "./pages/dashboard";
 import ProductDetail from "./pages/productDetail";
 import Shop from "./pages/shop";
 
-import Home from "./pages/about";
-function App() {
+import Home from "./pages/landing";
+import LoadingSpinner from "./components/loadingSpinner";
+
+const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <div className="App">
       <TopHeader />
@@ -29,6 +35,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
-export default App;
+export default withTranslation()(App);

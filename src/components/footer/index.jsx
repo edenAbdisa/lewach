@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/footer.css";
-import footerLogo from "../assets/img/footer-icon.svg";
-import footerFacebookIcon from "../assets/icon/social/Facebook.svg";
-import footerLinkedInIcon from "../assets/icon/social/LinkedIn.svg";
-import footerTwitterIcon from "../assets/icon/social/Twitter.svg";
+import "./footer.css";
+import footerLogo from "../../assets/img/footer-icon.svg";
+import footerFacebookIcon from "../../assets/icon/social/Facebook.svg";
+import footerLinkedInIcon from "../../assets/icon/social/LinkedIn.svg";
+import footerTwitterIcon from "../../assets/icon/social/Twitter.svg";
 
 const Footer = () => {
   const footerMenuItems = [
