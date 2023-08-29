@@ -1,0 +1,18 @@
+.btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 10px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.circular__btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.btn__green {
+  background-color: var(--btn-icon-green);
+}

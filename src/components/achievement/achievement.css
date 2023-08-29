@@ -1,0 +1,10 @@
+.achievement__title {
+  font-size: var(--f-ibm-48);
+  font-weight: bold;
+  margin: 10px;
+}
+.achievement__img__wrapper {
+  display: flex;
+  gap: 10%;
+  margin: 50px 0px;
+}

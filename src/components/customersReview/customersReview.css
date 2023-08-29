@@ -1,0 +1,30 @@
+.customer-review__wrapper {
+  display: grid;
+  grid-auto-flow: column;
+}
+.left__button {
+  position: relative;
+  right: -20px;
+  z-index: 1;
+  top: 50%;
+  justify-self: flex-end;
+}
+.right__button {
+  position: relative;
+  top: 50%;
+  left: -20px;
+  z-index: 1;
+  justify-self: flex-start;
+}
+.active {
+  display: flex;
+}
+.hide {
+  display: none;
+}
+.visible {
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}

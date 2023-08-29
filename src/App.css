@@ -2,6 +2,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-rgb: #f4f7f8;
   --white: #fff;
+  --black: #000;
   --light-container-grey: #e2e2ea;
   --primary-dark-brown: #663300;
   --primary-lighter-brown: 102 51 0 70%;
@@ -20,6 +21,9 @@
   /*text colors*/
   --text-dark: #000;
   --text-faded: #9a9ab0;
+  --text-blue-black: #001646;
+  --text-light-blue-black: #11142d;
+  --text-light-grey: #515151;
   /*border colors*/
   --border-inputs: #9a9ab0;
 
@@ -43,7 +47,7 @@
   --f-ibm-22: 1.375rem;
   --f-ibm-20: 1.25rem;
   --f-ibm-18: 1.125rem;
-  --f-ibm-16: 1rem; /*btn*/
+  --f-ibm-16: 1rem; /*btn 16px*/
   --f-ibm-12: 0.75rem;
   --f-ibm-11: 0.688rem;
 }
@@ -56,6 +60,7 @@
 }
 
 body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: var(--background-rgb);
 }
@@ -67,7 +72,9 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
-
+.container {
+  padding: 50px 70px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

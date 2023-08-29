@@ -1,0 +1,37 @@
+.review__card {
+  display: flex;
+  background-color: var(--white);
+  gap: 10%;
+  padding: 53px 72px;
+}
+.review__client__img {
+  width: 320px;
+  height: 320px;
+  border-radius: 8px;
+}
+.review__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.company__name {
+  font-size: var(--f-ibm-48);
+  margin: 40px 0px;
+  color: var(--text-blue-black);
+}
+.review__body {
+  font-size: var(--f-ibm-16);
+  color: var(--text-faded);
+  text-align: left;
+  margin: 0px 0px 40px 0px;
+}
+.reviewer__name {
+  font-size: var(--f-ibm-22);
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+  color: var(--text-light-blue-black);
+}
+.reviewer__position {
+  font-size: var(--f-ibm-16);
+  color: var(--text-light-grey);
+}

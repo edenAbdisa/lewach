@@ -4,6 +4,44 @@
       "header": "Unlock the Power of Bartering!",
       "description": "Welcome to a world of endless possibilities, where goods and services find new homes through the power of bartering.",
       "btn": "Find out More"
-    }
+    },
+    "premium": {
+      "title": "Our Premium Collection",
+      "category": [
+        "All Products",
+        "Fashion and Apparel",
+        "Electronics",
+        "Home and Furniture",
+        "Books, Music, and Media",
+        "Health and Fitness"
+      ],
+      "morebtn": "Find out more"
+    },
+    "brandStory": {
+      "title": "Story about<br/>Our Brand",
+      "body": "We have seen how society often valued material possessions, leading to waste and a lack of human connection. We dreamed of a world where people could meet, interact, and exchange things they no longer needed, finding value and joy in the process. With unwavering determination, we set out on a mission to turn our vision into reality with the help of Tech. We want our app to transform the way people saw their possessions, fostering a culture of gratitude, generosity, and environmental consciousness.",
+      "btn": "Read full story"
+    },
+    "achievement": "Our Achievement",
+    "customerReview": [
+      {
+        "customerTitle": "QTF",
+        "message": "I am very happy with the services provided, it is very helpful, starting from the insight that the company gave from the start that I did not understand what it was so I got knowledge and made my website look better",
+        "customerName": "Eden Abdisa",
+        "customerPosition": "CEO"
+      },
+      {
+        "customerTitle": "Sama",
+        "message": "I am very happy with the services provided, it is very helpful, starting from the insight that the company gave from the start that I did not understand what it was so I got knowledge and made my website look better",
+        "customerName": "Eden Abdisa",
+        "customerPosition": "CEO"
+      },
+      {
+        "customerTitle": "Telepat",
+        "message": "I am very happy with the services provided, it is very helpful, starting from the insight that the company gave from the start that I did not understand what it was so I got knowledge and made my website look better",
+        "customerName": "Eden Abdisa",
+        "customerPosition": "CEO"
+      }
+    ]
   }
 }
